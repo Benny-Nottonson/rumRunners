@@ -1,8 +1,6 @@
 import { component$, useSignal, useTask$ } from "@builder.io/qwik";
 import YoutubeVideo from "../youtubeVideo/youtubeVideo";
-import fs from 'fs';
-
-const channel = "UCxR0eaKXmx2g-5LiiL3VTDQ";
+import { fullFeed } from "~/feed";
 
 type Video = {
   id: {
@@ -25,17 +23,7 @@ export default component$(() => {
   const feed = useSignal<Video[]>([]);
 
   useTask$(async () => {
-    const res = await fetch(
-      `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channel}&maxResults=6&order=date&type=video&key=${process.env.YOUTUBE_API_KEY}`
-    );
-    const json = await res.json();
-    if (json.error) {
-      const data = fs.readFileSync('./youtube.json', 'utf8');
-      feed.value = JSON.parse(data).items;
-    } else {
-      fs.writeFileSync('./youtube.json', JSON.stringify(json));
-      feed.value = json.items;
-    }
+    feed.value = JSON.parse(fullFeed).items;
   });
 
   return (

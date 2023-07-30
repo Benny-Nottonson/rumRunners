@@ -17,13 +17,12 @@ type Video = {
   };
 };
 
-type Props = {
-  video: Video;
-};
-
-export default component$(({ video }: Props) => {
+export default component$(({ video }: { video: Video }) => {
   return (
-    <div key={video.id.videoId} class="w-full md:w-1/2 lg:w-1/3 p-2 h-90 bg-gray-100">
+    <div
+      key={video.id.videoId}
+      class="w-full md:w-1/2 lg:w-1/3 p-2 h-90 bg-gray-100/90 my-4 border-gray-900 border"
+    >
       <div class="p-4">
         <img
           src={video.snippet.thumbnails.medium.url}
