@@ -15,7 +15,7 @@ if (!json.error) {
 
 writeFileSync(
   join(process.cwd(), "src/feed.ts"),
-  `export const fullFeed: string = ${JSON.stringify(final)}`
+  `export const fullFeed: string = ${JSON.stringify(final)};`
 );
 
 writeFileSync(join(process.cwd(), "src/feed.json"), JSON.stringify(final));
