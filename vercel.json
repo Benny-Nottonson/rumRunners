@@ -9,5 +9,11 @@
         }
       ]
     }
+  ],
+  "chrons": [
+    {
+      "path": "#!/usr/bin/env node && src/init.mjs",
+      "schedule": "0 5 * * *"
+    }
   ]
 }
