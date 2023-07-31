@@ -20,7 +20,7 @@ const venueItems = [
     date: "10.13.23",
     time: "5:00 PM - 8:00 PM",
   },
-]
+];
 
 export default component$(() => {
   useTask$(() => {
@@ -33,7 +33,7 @@ export default component$(() => {
     const now = new Date();
     now.setDate(now.getDate() + 1);
     venueItems.forEach((venueItem, index) => {
-      if(new Date(venueItem.date) < now) {
+      if (new Date(venueItem.date) < now) {
         venueItems.splice(index, 1);
       }
     });

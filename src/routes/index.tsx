@@ -15,7 +15,7 @@ export default component$(() => {
           class="absolute top-0 left-0 w-screen h-screen bg-repeat -z-50 opacity-5"
           style={{
             backgroundImage: `url("data:image/svg+xml;utf8,${encodeURIComponent(
-              brickBackground
+              brickBackground,
             )}")`,
           }}
         ></div>
