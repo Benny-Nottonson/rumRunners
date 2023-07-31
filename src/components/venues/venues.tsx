@@ -31,6 +31,7 @@ export default component$(() => {
     });
 
     const now = new Date();
+    now.setDate(now.getDate() + 1);
     venueItems.forEach((venueItem, index) => {
       if(new Date(venueItem.date) < now) {
         venueItems.splice(index, 1);
