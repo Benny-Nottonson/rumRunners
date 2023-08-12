@@ -6,19 +6,37 @@ const venueItems = [
     name: "Hennessey's",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "8.13.23",
-    time: "3:00 PM - 6:00 PM",
+    time: "3:00 PM",
+  },
+  {
+    name: "Marina Wine Bar",
+    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
+    date: "8.19.23",
+    time: "6:00 PM",
   },
   {
     name: "Hennessey's",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "8.26.23",
-    time: "8:00 PM - 11:00 PM",
+    time: "8:00 PM",
+  },
+  {
+    name: "Hennessey's",
+    adress: "143 Main Street Seal Beach, CA 90740",
+    date: "9.22.23",
+    time: "8:00 PM",
   },
   {
     name: "Mother's Tavern",
     adress: "16701 CA-1, Sunset Beach, CA 90742",
     date: "10.13.23",
     time: "5:00 PM - 8:00 PM",
+  },
+  {
+    name: "Hennessey's",
+    adress: "143 Main Street Seal Beach, CA 90740",
+    date: "10.14.23",
+    time: "8:00 PM",
   },
 ];
 
