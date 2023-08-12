@@ -47,14 +47,6 @@ export default component$(() => {
       const bDate = new Date(b.date);
       return aDate < bDate ? -1 : 1;
     });
-
-    const now = new Date();
-    now.setDate(now.getDate() - 2);
-    venueItems.forEach((venueItem, index) => {
-      if (new Date(venueItem.date) < now) {
-        venueItems.splice(index, 1);
-      }
-    });
   });
 
   return (
