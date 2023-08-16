@@ -3,12 +3,6 @@ import VenueItem from "../venueItem/venueItem";
 
 const venueItems = [
   {
-    name: "Hennessey's",
-    adress: "143 Main Street Seal Beach, CA 90740",
-    date: "8.13.23",
-    time: "3:00 PM",
-  },
-  {
     name: "Marina Wine Bar",
     adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
     date: "8.19.23",

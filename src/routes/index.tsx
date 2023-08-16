@@ -9,7 +9,6 @@ const brickBackground =
 export default component$(() => {
   return (
     <>
-      {/* put the brickBackground svg to infinitely repeat in the background */}
       <div class="fixed top-0 left-0 w-screen h-screen pointer-events-none">
         <div
           class="absolute top-0 left-0 w-screen h-screen bg-repeat -z-50 opacity-5"
@@ -20,10 +19,22 @@ export default component$(() => {
           }}
         ></div>
       </div>
-      <div class="flex justify-center">
+      <div class="flex justify-center flex-col align-middle items-center">
         <img src="./rumRunnersLogo.png" width={200} height={200} />
+        <h2 class="w-1/2 text-white text-center p-8">
+          The Rum Runners are a trio of amplified acoustic sound, whose
+          complementary voices blend in hearty renditions of the classic 1970's
+          rock tunes they grew up with. They met in recent years while
+          performing regularly at open mic. on Tuesday nights at Bogart's Coffee
+          in Seal Beach, CA, where they can be seen around in local venues
+          performing covers from Skynyrd, Clapton, Allman and Doobie Bro's.,
+          Hendrix, Santana, Zeppelin, and more. The band is comprised of Tony
+          Nottonson (Lead Vocals, Lead Guitar). Ed Solis (Vocals, Bass Guitar),
+          and Ken Cinotto, (Vocals, Guitar, Harmonica). We ain't got drums and
+          we don't take breaks, so can hear yourselves talk while we rock you
+          nonstop.
+        </h2>
       </div>
-
       <div class="flex flex-col md:flex-row">
         <div class="flex flex-col flex-1">
           <div class="flex justify-center">
