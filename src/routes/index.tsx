@@ -20,8 +20,15 @@ export default component$(() => {
         ></div>
       </div>
       <div class="flex justify-center flex-col align-middle items-center">
-        <img src="./rumRunnersLogo.png" width={200} height={200} />
-        <h2 class="w-1/2 text-white text-center p-8">
+        <img
+          src="./logo.svg"
+          width={200}
+          height={200}
+          style={{
+            filter: "invert(1)",
+          }}
+        />
+        <h2 class="w-2/3 text-white text-center p-8">
           The Rum Runners are a trio of amplified acoustic sound, whose
           complementary voices blend in hearty renditions of the classic 1970's
           rock tunes they grew up with. They met in recent years while

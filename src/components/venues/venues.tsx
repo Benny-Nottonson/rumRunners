@@ -32,6 +32,36 @@ const venueItems = [
     date: "10.14.23",
     time: "8:00 PM",
   },
+  {
+    name: "DiPiazza",
+    adress: "5205 Pacific Coast Hwy, Long Beach, CA 90804",
+    date: "9.21.23",
+    time: "8:00 PM",
+  },
+  {
+    name: "Marina Wine Bar",
+    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
+    date: "9.23.23",
+    time: "6:00 PM",
+  },
+  {
+    name: "Marina Wine Bar",
+    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
+    date: "10.21.23",
+    time: "6:00 PM",
+  },
+  {
+    name: "Marina Wine Bar",
+    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
+    date: "11.18.23",
+    time: "6:00 PM",
+  },
+  {
+    name: "Marina Wine Bar",
+    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
+    date: "12.16.23",
+    time: "6:00 PM",
+  },
 ];
 
 export default component$(() => {
@@ -40,6 +70,15 @@ export default component$(() => {
       const aDate = new Date(a.date);
       const bDate = new Date(b.date);
       return aDate < bDate ? -1 : 1;
+    });
+
+    const currentDate = new Date();
+    currentDate.setDate(currentDate.getDate() + 1);
+    venueItems.forEach((venueItem, index) => {
+      const venueDate = new Date(venueItem.date);
+      if (venueDate < currentDate) {
+        venueItems.splice(index, 1);
+      }
     });
   });
 
