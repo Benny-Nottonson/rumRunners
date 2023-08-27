@@ -62,6 +62,12 @@ const venueItems = [
     date: "12.16.23",
     time: "6:00 PM",
   },
+  {
+    name: "Bogart's Coffee",
+    adress: "905 Ocean Ave., Seal Beach, CA",
+    date: "10.28.23",
+    time: "6:00 PM",
+  },
 ];
 
 export default component$(() => {

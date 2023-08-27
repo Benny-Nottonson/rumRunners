@@ -29,17 +29,15 @@ export default component$(() => {
           }}
         />
         <h2 class="w-2/3 text-white text-center p-8">
-          The Rum Runners are a trio of amplified acoustic sound, whose
-          complementary voices blend in hearty renditions of the classic 1970's
-          rock tunes they grew up with. They met in recent years while
-          performing regularly at open mic. on Tuesday nights at Bogart's Coffee
-          in Seal Beach, CA, where they can be seen around in local venues
-          performing covers from Skynyrd, Clapton, Allman and Doobie Bro's.,
-          Hendrix, Santana, Zeppelin, and more. The band is comprised of Tony
-          Nottonson (Lead Vocals, Lead Guitar). Ed Solis (Vocals, Bass Guitar),
-          and Ken Cinotto, (Vocals, Guitar, Harmonica). We ain't got drums and
-          we don't take breaks, so can hear yourselves talk while we rock you
-          nonstop.
+          The Rum Runners are a trio of amplified acoustic guitars and vocals,
+          whose complementary styles blend in cool renditions of the classic
+          1970's rock tunes they grew up with. They met in 2022, performing
+          regularly at open mic. at Bogart's Coffee in Seal Beach, where they
+          appear in local venues performing covers from Skynyrd, Clapton, Allman
+          and Doobie Bro's., Hendrix, Santana, Seger, Zeppelin, and more. The
+          band is comprised of Tony Nottonson (Lead Vocals, Lead Guitar). Ed
+          Solis (Vocals, Bass Guitar), and Ken Cinotto, (Vocals, Guitar,
+          Harmonicas).
         </h2>
       </div>
       <div class="flex flex-col md:flex-row">
