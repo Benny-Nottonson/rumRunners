@@ -68,6 +68,42 @@ const venueItems = [
     date: "10.28.23",
     time: "6:00 PM",
   },
+  {
+    name: "Bogart's Coffee",
+    adress: "905 Ocean Ave., Seal Beach, CA",
+    date: "9.15.23",
+    time: "6:00 PM",
+  },
+  {
+    name: "RISEU",
+    adress: "207 E. Seaside Way, Unit A, Long Beach, CA",
+    date: "9.29.23",
+    time: "6:30 PM",
+  },
+  {
+    name: "JADE",
+    adress: "6380-A Pacific Coast Hwy., Long Beach, CA",
+    date: "10.29.23",
+    time: "5:30 PM",
+  },
+  {
+    name: "Hennessey's",
+    adress: "143 Main Street Seal Beach, CA 90740",
+    date: "11.4.23",
+    time: "7:00 PM",
+  },
+  {
+    name: "Hennessey's",
+    adress: "143 Main Street Seal Beach, CA 90740",
+    date: "12.9.23",
+    time: "7:00 PM",
+  },
+  {
+    name: "Hennessey's",
+    adress: "143 Main Street Seal Beach, CA 90740",
+    date: "1.27.24",
+    time: "7:00 PM",
+  }
 ];
 
 export default component$(() => {
