@@ -9,13 +9,13 @@ const venueItems = [
     time: "6:00 PM",
   },
   {
-    name: "Hennessey's",
+    name: "Hennessy’s Seal Beach",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "8.26.23",
     time: "8:00 PM",
   },
   {
-    name: "Hennessey's",
+    name: "Hennessy’s Seal Beach",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "9.22.23",
     time: "8:00 PM",
@@ -27,7 +27,7 @@ const venueItems = [
     time: "5:00 PM - 8:00 PM",
   },
   {
-    name: "Hennessey's",
+    name: "Hennessy’s Seal Beach",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "10.14.23",
     time: "8:00 PM",
@@ -36,7 +36,7 @@ const venueItems = [
     name: "DiPiazza",
     adress: "5205 Pacific Coast Hwy, Long Beach, CA 90804",
     date: "9.21.23",
-    time: "8:00 PM",
+    time: "11:00 PM",
   },
   {
     name: "Marina Wine Bar",
@@ -87,23 +87,29 @@ const venueItems = [
     time: "5:30 PM",
   },
   {
-    name: "Hennessey's",
+    name: "Hennessy’s Seal Beach",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "11.4.23",
     time: "7:00 PM",
   },
   {
-    name: "Hennessey's",
+    name: "Hennessy’s Seal Beach",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "12.9.23",
     time: "7:00 PM",
   },
   {
-    name: "Hennessey's",
+    name: "Hennessy’s Seal Beach",
     adress: "143 Main Street Seal Beach, CA 90740",
     date: "1.27.24",
     time: "7:00 PM",
-  }
+  },
+  {
+    name: "Hennessey's Costa Mesa",
+    adress: "1773 Newport Blvd Costa Mesa, CA 92627",
+    date: "10.6.23",
+    time: "9:00 PM",
+  },
 ];
 
 export default component$(() => {
