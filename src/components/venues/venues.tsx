@@ -121,13 +121,14 @@ export default component$(() => {
     });
 
     const currentDate = new Date();
-    currentDate.setDate(currentDate.getDate() + 1);
-    venueItems.forEach((venueItem, index) => {
-      const venueDate = new Date(venueItem.date);
-      if (venueDate < currentDate) {
-        venueItems.splice(index, 1);
+    venueItems.splice(
+      0,
+      venueItems.findIndex((item) => {
+        const itemDate = new Date(item.date);
+        return itemDate > currentDate;
       }
-    });
+      )
+    );
   });
 
   return (
