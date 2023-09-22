@@ -119,16 +119,6 @@ export default component$(() => {
       const bDate = new Date(b.date);
       return aDate < bDate ? -1 : 1;
     });
-
-    const currentDate = new Date();
-    venueItems.splice(
-      0,
-      venueItems.findIndex((item) => {
-        const itemDate = new Date(item.date);
-        return itemDate > currentDate;
-      }
-      )
-    );
   });
 
   return (
