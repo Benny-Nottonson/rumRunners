@@ -5,55 +5,19 @@ const venueItems = [
   {
     name: "Marina Wine Bar",
     adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
-    date: "8.19.23",
+    date: "12.16.23",
     time: "6:00 PM",
   },
   {
-    name: "Hennessey's",
-    adress: "143 Main Street Seal Beach, CA 90740",
-    date: "8.26.23",
-    time: "8:00 PM",
-  },
-  {
-    name: "Hennessey's",
-    adress: "143 Main Street Seal Beach, CA 90740",
-    date: "9.22.23",
-    time: "8:00 PM",
-  },
-  {
-    name: "Mother's Tavern",
-    adress: "16701 CA-1, Sunset Beach, CA 90742",
-    date: "10.13.23",
-    time: "5:00 PM - 8:00 PM",
-  },
-  {
-    name: "Hennessey's",
-    adress: "143 Main Street Seal Beach, CA 90740",
-    date: "10.14.23",
-    time: "8:00 PM",
-  },
-  {
-    name: "DiPiazza",
-    adress: "5205 Pacific Coast Hwy, Long Beach, CA 90804",
-    date: "9.21.23",
-    time: "8:00 PM",
-  },
-  {
-    name: "Marina Wine Bar",
-    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
-    date: "9.23.23",
+    name: "Bogart's Coffee",
+    adress: "905 Ocean Ave., Seal Beach, CA",
+    date: "10.28.23",
     time: "6:00 PM",
   },
   {
     name: "Marina Wine Bar",
     adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
-    date: "10.21.23",
-    time: "6:00 PM",
-  },
-  {
-    name: "Marina Wine Bar",
-    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
-    date: "11.18.23",
+    date: "11.11.23",
     time: "6:00 PM",
   },
   {
@@ -65,8 +29,38 @@ const venueItems = [
   {
     name: "Bogart's Coffee",
     adress: "905 Ocean Ave., Seal Beach, CA",
-    date: "10.28.23",
+    date: "01.06.24",
     time: "6:00 PM",
+  },
+  {
+    name: "Marina Wine Bar",
+    adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
+    date: "01.28.24",
+    time: "1:00 PM",
+  },
+  {
+    name: "Pelican Isle",
+    adress: "16400 Pacific Coast Hwy., Huntington Beach",
+    date: "12.01.23",
+    time: "7:00 PM",
+  },
+  {
+    name: "Pelican Isle",
+    adress: "16400 Pacific Coast Hwy., Huntington Beach",
+    date: "12.29.23",
+    time: "7:00 PM",
+  },
+  {
+    name: "Mother’s Tavern",
+    adress: "16701 Pacific Coast Hwy, Sunset Beach, CA 90742",
+    date: "03.10.24",
+    time: "5:00 PM",
+  },
+  {
+    name: "Marina Park in Seal Beach",
+    adress: "151 Marina Dr., Seal Beach",
+    date: "04.06.24",
+    time: "12:00 PM",
   },
 ];
 
