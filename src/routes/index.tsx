@@ -39,6 +39,14 @@ export default component$(() => {
           Solis (Vocals, Bass Guitar), and Ken Cinotto, (Vocals, Guitar,
           Harmonicas).
         </h2>
+        <button>
+          <a
+            href="mailto:tonynottonson@gmail.com"
+            class="text-white font-bold text-2xl underline"
+          >
+            Book Now
+          </a>
+        </button>
       </div>
       <div class="flex flex-col md:flex-row">
         <div class="flex flex-col flex-1">
