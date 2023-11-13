@@ -17,7 +17,7 @@ const venueItems = [
   {
     name: "Marina Wine Bar",
     adress: "194 N Marina Dr UNIT 101, Long Beach, CA 90803",
-    date: "11.11.23",
+    date: "11.18.23",
     time: "6:00 PM",
   },
   {
